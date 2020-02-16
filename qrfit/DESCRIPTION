@@ -1,0 +1,17 @@
+Package: qrfit
+Type: Package
+Title: Inference for the Conditional Quantile Regression Model
+Version: 0.0.0.9000
+Date: 2020-02-14
+Author: Chenxi Zhang
+Maintainer: Chenxi Zhang <c462zhan@edu.uwaterloo.ca>
+Description: Implements the objective function and fitting function of the basic Conditional Quantile Regression Model with loss function.  Model Minimization is by linear programming.
+Imports: lpSolve
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat (>= 2.1.0),
+    optimCheck
